@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.google-suggestions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.google-image {
+  width: 60%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .google-image {
+    width: 40%;
+    max-width: 400px;
+  }
+}
+
+.suggestion-container {
+  width: 80%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .suggestion-container {
+    width: 50%;
+    max-width: 400px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 48px;
+    padding-bottom: 16px;
+  }
+}
+
+.input-container {
+  display: flex;
+}
+
+.input-image {
+  height: 24px;
+  margin-right: 10px;
+}
+.input-text {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 10px;
+  color: #bfbfbf;
+}
+
+@media screen and (min-width: 768px) {
+  .input-text {
+    font-size: 16px;
+  }
+}
+.suggestions-list {
+  padding-left: 0px;
+}
